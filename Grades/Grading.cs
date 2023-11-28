@@ -1,4 +1,6 @@
-﻿namespace _02Grades;
+﻿using System.Numerics;
+
+namespace _02Grades;
 
 public class Grading
 {
@@ -23,7 +25,7 @@ public class Grading
         {
             exams[i] = new Exam(GetUserInputGrade("Bitte eine Note eingeben."),GetUserInputString("Bitte eine Beschreibung eingeben"));
         }
-
+        
     }
 
     public static int GetUserInputGrade(string message)

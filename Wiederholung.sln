@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00Basics", "00Basics\00Basics.csproj", "{707BC89A-74CB-4D86-A6EF-A0B7011B7498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00Basics", "00Basics\00Basics.csproj", "{707BC89A-74CB-4D86-A6EF-A0B7011B7498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Grades", "Grades\02Grades.csproj", "{8008EE82-9C8C-433F-A6D4-0082BCB9EA29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02Grades", "Grades\02Grades.csproj", "{8008EE82-9C8C-433F-A6D4-0082BCB9EA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wassermelonen_Rechnung", "Wassermelonen_Rechnung\Wassermelonen_Rechnung.csproj", "{F4A6CDB7-4EA4-4702-973B-9F81C1E8E32D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8008EE82-9C8C-433F-A6D4-0082BCB9EA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8008EE82-9C8C-433F-A6D4-0082BCB9EA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8008EE82-9C8C-433F-A6D4-0082BCB9EA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A6CDB7-4EA4-4702-973B-9F81C1E8E32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A6CDB7-4EA4-4702-973B-9F81C1E8E32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A6CDB7-4EA4-4702-973B-9F81C1E8E32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A6CDB7-4EA4-4702-973B-9F81C1E8E32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
