@@ -155,7 +155,7 @@ public static class UserInput
 
             // Couldn't work out to check and THEN remove EURO symbols
 
-            // O M G, To explain: in GER a comma is used instead of a decimal point, so you must specify that you want to use an invariant culture.
+            // O M G, To explain: in GER a comma is used instead of a decimal point, so you must specify that you want to use an invariant culture if you want inputs to be seperated by a decimal point
             // float.TryParse(Console.ReadLine(), NumberStyles.Any, CultureInfo.InvariantCulture,out number) 
             tryingToParse = float.TryParse(input, out number);
 
