@@ -49,6 +49,10 @@ public class Lotto
     private int[] PickWinNumbers(int[] shuffledNumbers)
     {
         int[] winNumbers = new int[6];
+
+        // int startIndex = new Random().Next(0, 50 - 6);
+        // for (int i = startIndex; i < startIndex + 6; i++)
+
         for (int i = 0; i < 6; i++)
         {
             winNumbers[i] = shuffledNumbers[i];

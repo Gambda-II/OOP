@@ -19,7 +19,8 @@ public class Player
 
     public int[] GetPlayerNumbers()
     {
-        int[] numbersUsed = new int[6] { 0, 0, 0, 0, 0, 0 };
+        //int[] numbersUsed = new int[6] { 0, 0, 0, 0, 0, 0 };
+        int[] numbersUsed = { 0, 0, 0, 0, 0, 0 };
         int currentNumber;
         bool mustLoop = true;
 
